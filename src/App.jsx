@@ -21,8 +21,10 @@ function App() {
   }
   return (
     <>
-      <Header isYesClicked={isYesClicked} />
-      <ValReq onYesClick={handleYesClick} />
+      <div className="divv">
+        <Header isYesClicked={isYesClicked} />
+        <ValReq onYesClick={handleYesClick} />
+      </div>
     </>
   );
 }

@@ -28,7 +28,7 @@ function Header({ isYesClicked }) {
         />
       </div>
 
-      <div>My dearest LawLaw</div>
+      <div>{isYesClicked && "My dearest LawLaw"}</div>
       <p>{isYesClicked ? "Yayyyyy, I Love Youuu" : "Will you be my val?"}</p>
     </>
   );
